@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dx_ball/static/css/main.3c69ff7b.css",
+    "main.js": "/dx_ball/static/js/main.3d66d3fc.js",
+    "static/js/787.8a0391b2.chunk.js": "/dx_ball/static/js/787.8a0391b2.chunk.js",
+    "static/media/bg_img2.jpg": "/dx_ball/static/media/bg_img2.f3a95506a32d422d18a1.jpg",
+    "index.html": "/dx_ball/index.html",
+    "main.3c69ff7b.css.map": "/dx_ball/static/css/main.3c69ff7b.css.map",
+    "main.3d66d3fc.js.map": "/dx_ball/static/js/main.3d66d3fc.js.map",
+    "787.8a0391b2.chunk.js.map": "/dx_ball/static/js/787.8a0391b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c69ff7b.css",
+    "static/js/main.3d66d3fc.js"
+  ]
+}
