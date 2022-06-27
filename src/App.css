@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* literal */
+
+.canvas {
+  position: relative;
+}
+
+.canvas:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 2;
+  background-image: url('./assetss/bg_img2.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.play-btn{
+  cursor: pointer;
+  text-shadow: 3px 3px 10px hsl(351, 100%, 70%);
+  transition: .2s;
+}
+
+.play-btn:hover{
+  text-shadow: 8px 8px 15px hsl(351, 69%, 46%);
+
+}
