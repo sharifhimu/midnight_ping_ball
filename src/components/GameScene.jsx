@@ -20,7 +20,7 @@ function GameScene() {
 
     return (
         <div 
-        style={{ width: '100vw', height: '70vh', position: 'relative' }} 
+        style={{ width: '100vw', height: '100vh', position: 'relative' }} 
         className="canvas" 
         >
 
