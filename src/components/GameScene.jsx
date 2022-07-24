@@ -1,10 +1,10 @@
 import React from 'react'
 import '../App.css';
-import { Canvas, useFrame, useThree } from 'react-three-fiber';
-import { useRef, useState } from 'react';
-import { Physics, useBox, usePlane, useSphere } from '@react-three/cannon';
-import { EffectComposer, DepthOfField, Bloom, Noise, Vignette } from '@react-three/postprocessing'
-import { RoundedBox, MeshDistortMaterial, Cloud } from '@react-three/drei'
+import { Canvas } from 'react-three-fiber';
+import {  useState } from 'react';
+import { Physics } from '@react-three/cannon';
+import { EffectComposer, Bloom } from '@react-three/postprocessing'
+import { Cloud } from '@react-three/drei'
 
 import Wall from './Wall';
 import Ball from './Ball'

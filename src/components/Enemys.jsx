@@ -6,9 +6,7 @@ import {  useThree } from 'react-three-fiber';
 
   const Enemy = ({ position=[7, 4, 0], args=[1.5, .3, 0], color='white', rotation= [0,0,0] }) => {
 
-    const { viewport, camera } = useThree()
-
-    const [ref, api] = 
+    const [ref] = 
     useBox(() => 
           ({ 
             position: position, 

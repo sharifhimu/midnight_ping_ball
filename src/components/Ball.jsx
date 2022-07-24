@@ -3,7 +3,7 @@ import {  usePlane, useSphere } from '@react-three/cannon';
 
 
   const Ball = ({ args=[.2, 32, 32], color="red" , setFrame }) => {
-    const { viewport, gl, scene } = useThree()
+    const { viewport } = useThree()
     const [ref, api] = useSphere(() => ({ mass: 1 }) )
 
     usePlane(() => (

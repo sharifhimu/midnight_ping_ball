@@ -5,9 +5,9 @@ import {  useBox } from '@react-three/cannon';
 const Wall = () => {
 
     const { viewport } = useThree()
-    const [ref1, api1] = useBox(() => ( { args: [.5, viewport.height, .5 ], position: [ viewport.width/2, 0, 0] } ))
-    const [ref2, api2] = useBox(() => ( { args: [.5, viewport.height, 5. ], position: [ -viewport.width/2, 0, 0] } ))
-    const [ref3, api3] = useBox(() => ( { args: [ viewport.width, 1, 1 ], position: [ 0, viewport.height/2, 0] } ))
+    const [ref1] = useBox(() => ( { args: [.5, viewport.height, .5 ], position: [ viewport.width/2, 0, 0] } ))
+    const [ref2] = useBox(() => ( { args: [.5, viewport.height, 5. ], position: [ -viewport.width/2, 0, 0] } ))
+    const [ref3] = useBox(() => ( { args: [ viewport.width, 1, 1 ], position: [ 0, viewport.height/2, 0] } ))
 
     return(
       <>
