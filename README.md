@@ -1,8 +1,8 @@
-# Web Game - Prom Night 
+# Web Game - Midnight Ping Ball
 (Require web view)
 Suggest background, styling, more feature
 
-## link : https://sharifhimu.github.io/prom_night_ball_web/
+## link : https://sharifhimu.github.io/midnight_ping_ball/
 
 ### Packages used : Reactjs, Threejs, use-cannon, React-three/drei, React-three/postprocessing
 
