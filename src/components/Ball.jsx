@@ -2,7 +2,7 @@ import {  useFrame, useThree } from 'react-three-fiber';
 import {  usePlane, useSphere } from '@react-three/cannon';
 
 
-  const Ball = ({ args=[.2, 32, 32], color="red" , setFrame }) => {
+  const Ball = ({ args=[.3, 32, 32], color="red" , setFrame }) => {
     const { viewport } = useThree()
     const [ref, api] = useSphere(() => ({ mass: 1 }) )
 
@@ -26,7 +26,6 @@ import {  usePlane, useSphere } from '@react-three/cannon';
     return(
       <mesh ref={ref} castShadow >
         <sphereBufferGeometry  args={args}  />
-        // <meshPhysicalMaterial  color={color} metalness={.1} roughness={.3} />
         <meshNormalMaterial />
       </mesh>
     )

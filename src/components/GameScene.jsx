@@ -25,9 +25,21 @@ function GameScene() {
         >
 
         {
-            frame == 'never' ?
-            <div style={{ position: 'absolute', top: '20%', left: '45%', zIndex: '10', color: 'white', fontSize: '50px' }} >
-            <h1 onClick={() => setFrame('always')}  className='play-btn' > Play </h1> 
+            frame === 'never' ?
+            <div 
+            style={{ position: 'absolute', height: '100vh', width: '100vw', zIndex: 10 }}
+            // style={{ height }} 
+            >   
+            <div
+            style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100%' }}
+            >
+                <h1 
+                onClick={() => setFrame('always')}  
+                className='play-btn' 
+                > 
+                Play 
+                </h1> 
+            </div>
             </div>
             : 
             null
@@ -61,10 +73,19 @@ function GameScene() {
             <Bloom luminanceThreshold={.6} luminanceSmoothing={0.9} height={300} blurPass />
         </EffectComposer>
         <Cloud 
-        position={[0, 0, 0]}
+        position={[1.2, 0, 0]}
         args={[5, 3]}
         opacity={0.02}
-        speed={0.9} // Rotation speed
+        speed={0.4} // Rotation speed
+        width={1} // Width of the full cloud
+        depth={5} // Z-dir depth
+        segments={10} // Number of particles 
+        />
+        <Cloud 
+        position={[-1.2, 0, 0]}
+        args={[5, 3]}
+        opacity={0.02}
+        speed={0.4} // Rotation speed
         width={1} // Width of the full cloud
         depth={5} // Z-dir depth
         segments={10} // Number of particles 
