@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/prom_night_ball_web/static/css/main.99d3c0e1.css",
-    "main.js": "/prom_night_ball_web/static/js/main.fb94a061.js",
-    "static/js/787.dde85f89.chunk.js": "/prom_night_ball_web/static/js/787.dde85f89.chunk.js",
-    "static/media/bg_img2.jpg": "/prom_night_ball_web/static/media/bg_img2.f3a95506a32d422d18a1.jpg",
-    "index.html": "/prom_night_ball_web/index.html",
-    "main.99d3c0e1.css.map": "/prom_night_ball_web/static/css/main.99d3c0e1.css.map",
-    "main.fb94a061.js.map": "/prom_night_ball_web/static/js/main.fb94a061.js.map",
-    "787.dde85f89.chunk.js.map": "/prom_night_ball_web/static/js/787.dde85f89.chunk.js.map"
+    "main.css": "/midnight_ping_ball/static/css/main.9987a841.css",
+    "main.js": "/midnight_ping_ball/static/js/main.a025419f.js",
+    "static/js/787.f97f0d8b.chunk.js": "/midnight_ping_ball/static/js/787.f97f0d8b.chunk.js",
+    "static/media/bg_img3.jpg": "/midnight_ping_ball/static/media/bg_img3.3a1b90f976629a85d31d.jpg",
+    "index.html": "/midnight_ping_ball/index.html",
+    "main.9987a841.css.map": "/midnight_ping_ball/static/css/main.9987a841.css.map",
+    "main.a025419f.js.map": "/midnight_ping_ball/static/js/main.a025419f.js.map",
+    "787.f97f0d8b.chunk.js.map": "/midnight_ping_ball/static/js/787.f97f0d8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99d3c0e1.css",
-    "static/js/main.fb94a061.js"
+    "static/css/main.9987a841.css",
+    "static/js/main.a025419f.js"
   ]
 }
