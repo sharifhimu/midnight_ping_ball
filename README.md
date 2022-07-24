@@ -1,4 +1,6 @@
-# Web Game - Prom Night
+# Web Game - Prom Night 
+(Require web view)
+Suggest background, styling, more feature
 
 ## link : https://sharifhimu.github.io/prom_night_ball_web/
 
