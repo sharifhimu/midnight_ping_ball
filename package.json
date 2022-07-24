@@ -1,5 +1,5 @@
-{ "homepage": "https://sharifhimu.github.io/prom_night_ball_web",
-  "name": "prom_night_ball_web",
+{ "homepage": "https://sharifhimu.github.io/midnight_ping_ball",
+  "name": "midnight_ping_ball",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
